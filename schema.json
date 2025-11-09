@@ -1,0 +1,73 @@
+{
+    "numerical_columns": [
+        "JoiningYear",
+        "PaymentTier",
+        "Age",
+        "ExperienceInCurrentDomain"
+    ],
+    "categorical_columns": [
+        "Education",
+        "City",
+        "Gender",
+        "EverBenched"
+    ],
+    "target_column": "LeaveOrNot",
+    "feature_columns": [
+        "Education",
+        "JoiningYear",
+        "City",
+        "PaymentTier",
+        "Age",
+        "Gender",
+        "EverBenched",
+        "ExperienceInCurrentDomain"
+    ],
+    "data_types": {
+        "Education": "object",
+        "JoiningYear": "int64",
+        "City": "object",
+        "PaymentTier": "int64",
+        "Age": "int64",
+        "Gender": "object",
+        "EverBenched": "object",
+        "ExperienceInCurrentDomain": "int64"
+    },
+    "categorical_values": {
+        "Education": [
+            "Bachelors",
+            "Masters",
+            "PHD"
+        ],
+        "City": [
+            "Bangalore",
+            "New Delhi",
+            "Pune"
+        ],
+        "Gender": [
+            "Female",
+            "Male"
+        ],
+        "EverBenched": [
+            "No",
+            "Yes"
+        ]
+    },
+    "numerical_ranges": {
+        "JoiningYear": {
+            "min": 2012,
+            "max": 2018
+        },
+        "PaymentTier": {
+            "min": 1,
+            "max": 3
+        },
+        "Age": {
+            "min": 22,
+            "max": 41
+        },
+        "ExperienceInCurrentDomain": {
+            "min": 0,
+            "max": 7
+        }
+    }
+}
