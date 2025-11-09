@@ -12,6 +12,9 @@ Employee churn is a critical metric for companies. High churn can lead to **loss
 
 This project demonstrates how **Machine Learning (ML) pipelines** and a **Streamlit app** can help managers **predict churn** and make informed decisions.  
 
+## 🌐 Live Demo
+Try the app here: [Employee Churn Predictor](https://aashy7metamorph-employeechurn-app-app-4qzjxi.streamlit.app/)
+
 ---
 
 ## 🔍 What the App Does
