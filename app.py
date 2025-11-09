@@ -101,7 +101,8 @@ Built by **Aisha Memon 💜**
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("### 🔗 Quick Links")
-st.sidebar.markdown("[GitHub Repository](https://github.com/)")
+st.sidebar.markdown("[GitHub Repository](https://github.com/aashy7metamorph/EmployeeChurn_App)")
+
 
 tab1, tab2, tab3 = st.tabs(["🔮 Predict Churn", "📘 About Data", "⚙️ Model Info"])
 
