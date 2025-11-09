@@ -3,6 +3,7 @@ import pandas as pd
 from joblib import load
 import dill
 
+# It opens the pkl file as context. 
 with open('pipeline.pkl', 'rb') as file:
     model = dill.load(file)
 
